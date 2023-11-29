@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.header h1 {
+    color: #00e0ff;
+    font-weight: 500;
+}
+
+.header nav {
+    display: flex;
+    gap: 1em;
+}
+
+.header nav a {
+    color: #fff;
+    padding: 1em;
+    transition: .5s;
+}
+
+.header nav a:hover {
+    color: #00e0ff;
+}

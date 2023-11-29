@@ -1,0 +1,32 @@
+.footer {
+    background-color: #222;
+    padding: 1em;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h1 {
+    color: #00e0ff;
+    font-weight: 500;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 2em;
+    margin-left:2em;
+    border-left: 2px solid #fff;
+}
+
+.footer ul li a {
+    color: #fff;
+    transition: .5s;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: #00e0ff;
+}
