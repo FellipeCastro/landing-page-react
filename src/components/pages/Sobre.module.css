@@ -1,0 +1,37 @@
+.sobre_container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #00e0ff, #111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.text_container {
+    width: 40%;
+}
+
+.text_container h2 {
+    text-align: center;
+    background-image: linear-gradient(to right, #111, transparent);
+    color: #00e0ff;
+    font-size: 2em;
+    font-weight: 600;
+    padding: .2em;
+    margin-bottom: 1em;
+}
+
+.text_container p {
+    color: #fff;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.img_container {
+    width: 35%;
+}
+
+.img_container img {
+    width: 100%;
+}
