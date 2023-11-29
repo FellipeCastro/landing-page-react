@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import styles from './Home.module.css';
+import img from '../../img/Innovation-amico.svg';
 
 function Home() {
     return (
@@ -9,7 +10,7 @@ function Home() {
                 <Link to="/cursos">Conheça nossos cursos</Link>
             </div>
             <div className={styles.img_container}>
-                <img src="../img/Innovation-amico.svg" alt="Cursos Online"/>
+                <img src={img} alt="Cursos Online"/>
             </div>
         </section>
     )
