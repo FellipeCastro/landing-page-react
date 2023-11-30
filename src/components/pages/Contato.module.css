@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
-    background-color: #111;
+    background-image: linear-gradient(to top, #00e0ff, #111);
     padding: 10% 0;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .input_container input::placeholder, .input_container textarea::placeholder {
-    color: #ccc;
+    color: #fff;
 }
 
 .input_container textarea {
@@ -90,17 +90,18 @@
     gap: .5em;
     padding: .5em;
     width: 100%;
-    border: 2px solid #00e0ff;
+    border: 2px solid #fff;
     border-radius: 5px;
-    background-color: #00e0ff;
+    background-color: transparent;
     cursor: pointer;
     transition: .5s;
-    color: #111;
+    color: #fff;
     font-size: 1.5em;
     font-weight: 500;
 }
 
 .button_container button:hover {
-    background-color: transparent;
-    color: #00e0ff;
+    background-color: #00e0ff;
+    color: #fff;
+    border-color: #00e0ff;
 }
