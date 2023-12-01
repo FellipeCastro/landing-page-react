@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
-    background-image: linear-gradient(to top, #00e0ff, #111);
+    background-image: linear-gradient(to bottom, #00e0ff, #111);
     padding: 10% 0;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .titulo_container h2 {
-    color: #00e0ff;
+    color: #fff;
     font-weight: 500;
     font-size: 2em;
 }
@@ -90,9 +90,9 @@
     gap: .5em;
     padding: .5em;
     width: 100%;
-    border: 2px solid #fff;
+    border: 2px solid #00e0ff;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #00e0ff;
     cursor: pointer;
     transition: .5s;
     color: #fff;
@@ -101,7 +101,6 @@
 }
 
 .button_container button:hover {
-    background-color: #00e0ff;
-    color: #fff;
-    border-color: #00e0ff;
+    background-color: transparent;
+    border-color: #fff;
 }

@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 2em;
+    z-index: 999;
 }
 
 .header h1 {
